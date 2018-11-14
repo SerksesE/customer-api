@@ -8,5 +8,8 @@
     "express": "^4.16.3",
     "pg": "^7.4.3",
     "sequelize": "^4.38.0"
-  }
+  },
+  "repository": "https://github.com/Codaisseur/customers-api.git",
+  "author": "SerksesE <serkses@hotmail.com>",
+  "license": "MIT"
 }

@@ -16,6 +16,6 @@ router.post('/logins', (req, res) => {
       jwt: toJWT({ userId: 1 })
     })
   }
-}
+})
 
 module.exports = router

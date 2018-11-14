@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize')
 const sequelize = require('../db')
 
-const Companies = sequelize.define('companies', {
+const Company = sequelize.define('companies', {
   companyId: {
     type: Sequelize.INTEGER,
     field: 'company_id',
@@ -21,7 +21,7 @@ const Companies = sequelize.define('companies', {
   }
 }, {
   timestamps: false,
-  tableName: 'customers'
+  tableName: 'companies'
 })
 
-module.exports = Companies
+module.exports = Company

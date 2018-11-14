@@ -6,7 +6,7 @@ const Company = sequelize.define('companies', {
     type: Sequelize.INTEGER,
     field: 'company_id',
   },
-  Name: {
+  name: {
     type: Sequelize.STRING,
     field: 'company_name',
     allowNull: false

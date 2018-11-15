@@ -6,7 +6,8 @@ const bcrypt = require('bcrypt')
 router.post('/logins', (req, res) => {
   const email = req.body.email
   const password = bcrypt.hashSync(req.body.password, 10)
-
+  console.log(password)
+  
   if (!email || !password) {
     res.status(400).send({
       message: 'Please supply a valid email and password'
